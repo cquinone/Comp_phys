@@ -3,7 +3,7 @@ Some computational physics projects/code.
 
 * Active homogeneous simulates an active fluid in shear flow. Newton's Method is used to solve for the dynamics of a nematic order parameter, and stress vs strain curves are generated. Requires scipy, matplotlib, and numpy.
 
-* Crank solves for the inhomogeneous case, using a Crank-Nicholson finite difference method, and assuming grad(Q) = 0 at the boundaries.
+* Crank solves for the inhomogeneous case, using a Crank-Nicholson finite difference method, and assuming grad(Q) = 0 at the boundaries. Requires numpy and matplotlib.
 
 * Scalar wave solves the scalar wave equation in box, using spectral methods, and generates a animation of this. Requires fftw.
 
