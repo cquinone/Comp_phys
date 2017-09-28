@@ -13,3 +13,5 @@ attached to a wall, given an initial temperature, a function defining the bar ov
 
 * Finance predicts the future of a particular stock via Monte Carlo methods, given its volatility, strike price, and other parameters. Requires matplotlib.
 
+* Thermrand creates a random grid of cells with some integer from 1-10, and for each step in time, the highest number moves in a random direction into another cell. The grid is eventually plotted with red representing a higher sum of numbers in the cell, blue being a lower sum. Requires Tkinter.
+
