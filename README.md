@@ -5,7 +5,7 @@ Some computational physics projects/code.
 
 * Crank solves for the inhomogeneous case, using a Crank-Nicholson finite difference method, and assuming grad(Q) = 0 at the boundaries. Requires numpy and matplotlib.
 
-* Scalar wave solves the scalar wave equation in box, using spectral methods, and generates a animation of this. Requires fftw.
+* Scalar wave solves the scalar wave equation in a box, using spectral methods, and generates a animation of this. Requires fftw.
 
 * Finite methods is a python program that uses finite element analysis to determine the final temperature on a bar
 attached to a wall, given an initial temperature, a function defining the bar over its length, and other parameters. Requires scipy and numpy.
