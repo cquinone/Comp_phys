@@ -7,6 +7,8 @@ Some computational physics projects/code.
 
 * Scalar wave solves the scalar wave equation in a box, using spectral methods, and generates a animation of this. Requires fftw.
 
+* Dynamics.go is a 2-D molecular dynamics simulation in a box using a Lennard Jones potential, a cutt off distance, periodic boundary conditions, and the minimum image convention. It outputs a file with the kinetic, potential, and time step. Requires input file that has particle number, box size, and all particle starting positions / velocities in x and y. 
+
 * Res.go is a Go program that calculates the 2-D relativistic kinematics resulting from 2 particles colliding. Requires draw2d package.
 
 * Finite methods is a python program that uses finite element analysis to determine the final temperature on a bar
