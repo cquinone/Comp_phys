@@ -10,7 +10,7 @@ Some computational physics projects/code.
 * Dynamics.go is a 2-D molecular dynamics simulation in a box using a Lennard Jones potential, a cut-off distance, periodic boundary conditions, and the minimum image convention. It outputs a file with tab separated columns of the kinetic and potential energy at each time step. Requires input file that has particle number, box size, and all particle starting positions / velocities in x and y. 
 
 
-* wca_ynamics.go is a 3-D molecular dynamics simulation in a box using a weeks-chandler-andersen potential, periodic boundary conditions, and the minimum image convention. It outputs two files formatted to be input to Ovito, of the "real" and "periodic" particle positions at each timestep. Requires input file that has particle number, box size, and all particle starting positions / velocities in x,y, and z.
+* wca_dynamics.go is a 3-D molecular dynamics simulation in a box using a weeks-chandler-andersen potential, periodic boundary conditions, and the minimum image convention. It outputs two files formatted to be input to Ovito, of the "real" and "periodic" particle positions at each timestep. Requires input file that has particle number, box size, and all particle starting positions / velocities in x,y, and z.
 
 * Pendulum.py solves for the dynamics of a driven and damped pendulum via the Euler, Cromer, and Verlet methods. It outputs files with the angle and angular velocity of the pendulum at each time step, for each method. Requires matplotlib. 
 
